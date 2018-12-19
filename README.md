@@ -6,6 +6,12 @@
 npm install
 ```
 
+## To Start development
+
+```bash
+npm install
+```
+
 ## TODO
 
 * Create functional components of the header, sidebar, and content sections of the page
