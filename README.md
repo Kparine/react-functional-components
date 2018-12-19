@@ -1,44 +1,115 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# react-functional-components
 
-## Available Scripts
+## To install
 
-In the project directory, you can run:
+```bash
+npm install
+```
 
-### `npm start`
+## TODO
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Create functional components of the header, sidebar, and content sections of the page
+* In the content section, put the chart and table in different functional components
+* Use the following data to generate the table
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+```javascript
+const table = [{
+    id: 1001,
+    first_name: "Normand",
+    last_name: "Pagin",
+    email: "npagin0@gizmodo.com",
+    ip_address: "48.216.125.9"
+  }, {
+    id: 1002,
+    first_name: "Charline",
+    last_name: "Jereatt",
+    email: "cjereatt1@cam.ac.uk",
+    ip_address: "220.196.199.25"
+  }, {
+    id: 1003,
+    first_name: "Cheslie",
+    last_name: "Ovitts",
+    email: "covitts2@cbc.ca",
+    ip_address: "183.143.193.134"
+  }, {
+    id: 1004,
+    first_name: "Camile",
+    last_name: "Breache",
+    email: "cbreache3@mozilla.com",
+    ip_address: "14.174.245.135"
+  }, {
+    id: 1005,
+    first_name: "Reube",
+    last_name: "Cesconi",
+    email: "rcesconi4@state.tx.us",
+    ip_address: "107.253.163.159"
+  }, {
+    id: 1006,
+    first_name: "Sigfrid",
+    last_name: "Lednor",
+    email: "slednor5@weather.com",
+    ip_address: "200.121.234.171"
+  }, {
+    id: 1007,
+    first_name: "Iseabal",
+    last_name: "de Clerc",
+    email: "ideclerc6@tiny.cc",
+    ip_address: "160.58.134.92"
+  }, {
+    id: 1008,
+    first_name: "Waite",
+    last_name: "McRae",
+    email: "wmcrae7@infoseek.co.jp",
+    ip_address: "28.64.36.237"
+  }, {
+    id: 1009,
+    first_name: "Ameline",
+    last_name: "Penkethman",
+    email: "apenkethman8@studiopress.com",
+    ip_address: "250.3.180.142"
+  }, {
+    id: 1010,
+    first_name: "Bessy",
+    last_name: "Paddy",
+    email: "bpaddy9@cnn.com",
+    ip_address: "85.63.44.86"
+  }, {
+    id: 1011,
+    first_name: "Ximenez",
+    last_name: "Salazar",
+    email: "xsalazara@comsenz.com",
+    ip_address: "222.222.203.100"
+  }, {
+    id: 1012,
+    first_name: "Blinnie",
+    last_name: "Goldney",
+    email: "bgoldneyb@mapy.cz",
+    ip_address: "215.197.118.56"
+  }, {
+    id: 1013,
+    first_name: "Emilie",
+    last_name: "Oliver",
+    email: "eoliverc@walmart.com",
+    ip_address: "144.170.37.199"
+  }, {
+    id: 1014,
+    first_name: "Matthias",
+    last_name: "Milligan",
+    email: "mmilligand@geocities.jp",
+    ip_address: "219.199.163.106"
+  }, {
+    id: 1015,
+    first_name: "Quinta",
+    last_name: "Klejna",
+    email: "qklejnae@aboutads.info",
+    ip_address: "113.146.169.35"
+  }]
+```
 
-### `npm test`
+* Create a functional component for table rows
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Stretch
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Create functional components for the following
+  * Icons
+* Create a data drive list of menu items in the sidebar
